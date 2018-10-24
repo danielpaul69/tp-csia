@@ -1,0 +1,51 @@
+body{
+      margin: 0;
+}
+
+.presentation{
+      background-image: url('https://images.pexels.com/photos/132650/pexels-photo-132650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+      font-size: 25px;
+      background-size: cover;
+      margin: 0;
+}
+
+#liste-competences{
+      padding: 50px;
+}
+
+.competences{
+      width: 50%;
+      float: left;
+}
+
+.progess-bg{
+      width: 80%;
+      background-color: #007ACC;
+      padding: 5px 5px 5px 15px;
+      border-radius: 5px;
+      color: white;
+}
+
+.button{    
+      padding: 10px;
+      border: 4px solid #007ACC;
+      text-decoration: none;
+      color: #007ACC;
+}
+
+.button:hover{
+      padding: 10px;
+      border: 4px solid #007ACC;
+      text-decoration: none;
+      background-color: #007ACC;
+      color: #007ACC;
+}
+
+.diplome{
+      padding: 25px;
+      border: 1px solid black;
+}
+
+input, textarea{
+      width: 100%;
+}

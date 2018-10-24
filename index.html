@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <title>TP HTML / CSS</title>
+      <link rel="stylesheeet" href="syle/style.css">
+</head>
+<body>
+      <ol>
+            <li>Réparer le lien vers le fichier style.css</li>
+            <li>Mettre en titre d'onglet votre nom et votre prénom</li>
+            <li>Remplacer l'icone de l'onglet par le signe "&lt;/&gt;" (aide : <a href="https://www.flaticon.com">https://www.flaticon.com</a>)</li>
+            <li>Centrer horizontalement le titre de la partie présentation</li>
+            <li>Définir un espacement de lettre de 25 pixels pour le titre de la section présentation</li>
+            <li>Changer la police du texte de présentation par Indie Flower (<a href="https://fonts.google.com/">https://fonts.google.com/</a>)</li>
+            <li>Justifier le texte de présentation</li>
+            <li>Définir une marge intérieur de 100 pixels pour le haut et le bas ainsi que 25 pixels pour la droite et la gauche de la section présentation</li>
+            <li>Faire en sorte que l'image de fond apparaisse même si aucune connexion internet n'est établie</li>
+            <li>Définir la couleur du texte de présentation par la couleur de fond de la section "La plate-forme mobile la plus utilisée au monde" du site <a href="https://www.android.com/">https://www.android.com/</a></li>
+            <br>
+            <li>Centrer le titre de la section compétences </li>
+            <li>Souligner et mettre en gras le texte de chaque titre de la section compétences (développement & sgbd)</li>
+            <li>Créer 2 colonnes supplémentaires pour ajouter des barres de progression pour vos compétences en administration système et réseau ainsi que pour les différents OS que vous maitrisez</li>
+            <li>Pour toutes les sections de compétences, ajoutez le logo correspondant à chaque compétence</li>
+            <li>Modifiez ces 4 sections en mettant vos compétences réelles</li>
+            <li>Personnalisez chaque barre de progression pour définir votre niveau réel pour chaque compétence</li>
+            <li>Centrer le bouton télécharger mon CV</li>
+            <li>Faire fonctionner le bouton pour permettre de télécharger réelement votre cv</li>
+            <li>Afficher le texte du bouton  télécharger mon CV au survol de ce dernier (:hover)</li>
+            <li>Ajouter une marge sur le bouton pour qu'il ne s'affiche pas par dessus d'autre composants</li>
+            <br>
+            <li>Centrer le titre de la section diplôme</li>
+            <li>Ajouter l'ensemble de vos diplômes</li>
+            <li>Mettre en couleur de fond de chaque diplôme la couleur principal du logo du centre de formation (exemple bleu pour Sciences-U)</li>
+            <li>Ajouter un arrondi de 5 pixels sur les bords de chaque diplôme</li>
+            <li>Centrer le titre Contact</li>
+            <li>Centrer la section ayant l'id : <code>formulaire-contact</code></li>
+            <li>Placer le bouton valider à droite</li>
+            <li>Personnaliser le bouton valider</li>
+            <li>Ajouter une bordure de 2 pixels de la couleur de votre choix sur la section ayant l'id : <code>formulaire-contact</code></li>
+            <li>Supprimer toutes les propriétés style du fichier html et les placer dans le fichier style.css</li>
+      </ol>
+      
+      <div class="presentation">
+            <h1 class="titre">Texte de présentation</h1>
+            <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. In veniam facere, pariatur voluptatem corrupti eveniet suscipit commodi magnam iusto voluptates quaerat quibusdam ex exercitationem expedita obcaecati. Esse dolore odit unde!
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. In veniam facere, pariatur voluptatem corrupti eveniet suscipit commodi magnam iusto voluptates quaerat quibusdam ex exercitationem expedita obcaecati. Esse dolore odit unde!
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. In veniam facere, pariatur voluptatem corrupti eveniet suscipit commodi magnam iusto voluptates quaerat quibusdam ex exercitationem expedita obcaecati. Esse dolore odit unde!
+            </p>
+      </div>
+      
+      <div style="margin-top: 100px; margin-bottom: 100px;">
+            <h1>Compétences</h1>
+            <div id="liste-competences">
+                  <div class="competences">
+                        Développement
+                        <br><br>
+                        <div>
+                              HTML
+                              <br><br>
+                              <div class="progess-bg">
+                                    <div class="progress">80%</div>
+                              </div>
+                        </div>
+                        <br><br>
+                        <div>
+                              CSS
+                              <br><br>
+                              <div class="progess-bg">
+                                    <div class="progress">80%</div>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="competences">
+                        SGBD
+                        <br><br>
+                        <div>
+                              MySQL
+                              <br><br>
+                              <div class="progess-bg">
+                                    <div class="progress">80%</div>
+                              </div>
+                        </div>
+                        <br><br>
+                        <div>
+                              MongoDb
+                              <br><br>
+                              <div class="progess-bg">
+                                    <div class="progress">80%</div>
+                              </div>
+                        </div>
+                        <br><br>
+                        <div>
+                              Oracle
+                              <br><br>
+                              <div class="progess-bg">
+                                    <div class="progress">80%</div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+            <div style="width: 100%;">
+                  <a href="#" class="button">Télécharger mon CV</a>
+            </div>
+      </div>
+      
+      <div style="margin: 50px;">
+            <h1>Diplômes</h1>
+            <div class="diplome">
+                  Bachelor CSIA
+                  <br>
+                  <em>Sciences-U Lyon, 2019</em>
+            </div>
+      </div>
+      
+      <div>
+            <h1>Contact</h1>
+            <div id="formulaire-contact" style="width: 500px;">
+                  <form style="margin: 50px;">
+                        <label for="">Email</label>
+                        <input type="text">
+                        <br><br>
+                        <label for="">Message</label>
+                        <br>
+                        <textarea></textarea>
+                        <button type="submit">Valider</button>
+                  </form>
+            </div>
+      </div>
+</body>
+</html>
